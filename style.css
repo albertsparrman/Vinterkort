@@ -5,9 +5,13 @@ body {
     background-size: 100vw;
 }
 .card {
+  background-image: url(tomte.jpg);
+  background-size: 80vw;
+  background-position-x: -15vw;
+  background-position-y: -3vw;
   border:1vw solid white;
   border-radius: 1vw;
-  box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 8px 2px rgba(0, 0, 0, 0.1);
 }
 
 .flip-card {
@@ -46,57 +50,95 @@ body {
 }
 
 .flip-card-back {
-  background-color: white;
+  background-color: rgb(245, 245, 245);
   border:1vw solid white;
   border-radius: 1vw;
-  box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.15);
-  color: rgb(116, 116, 116);
+  box-shadow: 0px 1px 8px 2px rgba(0, 0, 0, 0.1);
+  color: rgb(168, 168, 168);
   transform: rotateY(180deg);
 }
 
 .h1 {
-  margin-left: 0vw;
+  margin-left: 22vw;
   transform: rotate(-6deg);
-  font-size: 4vw;
+  font-size: 6vw;
   font-family: 'Noto Sans TC', sans-serif;
   font-family: 'Yellowtail', cursive;
-  background: -webkit-linear-gradient(#e6c042, #a5932c);
+  background: -webkit-linear-gradient(#8d051e, #c01b44);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.01vw #8d051e;
 }
 
 .h1_2 {
-  margin-top: -4vw;
-  margin-left: 4vw;
+  margin-top: -6vw;
+  margin-left: 24vw;
   transform: rotate(-8deg);
-  font-size: 4vw;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 6vw;
   font-family: 'Yellowtail', cursive;
-  background: -webkit-linear-gradient(#e6c042, #a5932c);
+  background: -webkit-linear-gradient(#8d051e, #c01b44);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.01vw #8d051e;
+}
+
+.h1_3{
+  font-size: 3.5vw;
+}
+
+.h1_4 {
+  margin-top: -1.7vw;
+  font-size: 3.5vw;
 }
 
 .p1 {
   margin-left: 1.5vw;
-  margin-top: -1.5vw;
-  font-size: 2.5vw;
-  font-family: 'Noto Sans TC', sans-serif;
-  font-family: 'Yellowtail', cursive;
+  margin-top: -1.4vw;
+  font-size: 2.2vw;
 }
 
 .p2 {
   margin-left: 2vw;
   margin-top: -2vw;
   font-size: 5vw;
-  font-family: 'Noto Sans TC', sans-serif;
-  font-family: 'Yellowtail', cursive;
 }
 
 .flex {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .image {
   margin-left: 2vw;
 }
+
+.box {
+  margin-top: 2.5vw;
+  background-color: transparent;
+  border-left: 0.17vw solid rgb(168, 168, 168);
+  width: 25vw;
+  height: 35vw;  
+}
+
+.box_2 {
+  margin-top: 0vw;
+  background-color: transparent;
+  border: 0.17vw solid rgb(168, 168, 168);
+  width: 6vw;
+  height: 6vw;
+  margin-left: 20.73vw;  
+} 
+
+.h {
+  margin-top: 15.75vw;
+}
+
+hr {
+  margin-top: 4vw;
+  background-color: rgb(168, 168, 168);
+  border-style: none;
+  height: 0.12vw;
+  width: 25vw;
+  margin-left: 2vw;
+}
+
